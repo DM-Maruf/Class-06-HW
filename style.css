@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: #f2f4f8;
+}
+h1{
+    text-align: center;
+    font-size: 200px;
+    background-image: url(./Image/TechTrack2_webbanner_teg_0.jpg);
+    background-size: cover;
+    background-clip: text;
+    -moz-background-clip: text;
+    color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.product_card{
+    width: 25%;
+    background-color:#fff;
+    margin: 0 18px;
+    border-radius: 10px;
+}
+.img{
+    text-align: center;
+    border-bottom: 4px solid #f2f4f8 ;
+}
+.details{
+    padding: 25px 25px 0 25px;
+}
+.details ul {
+    color: #666666;
+    padding: 20px 0 20px 10px;
+}
+.buy{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+.buy p {
+    color: #EF4A23;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 600;
+}
+.buy .button{
+    color: #3749bb;
+}
+.buy button{
+    width: 80%;
+    height: 28px;
+    margin: 5px;
+    color: #666666;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.gradient{
+    background-image: linear-gradient(to bottom, blue,skyblue,yellow,red);
+    padding: 25px 0;
+    margin: 18px 0;
+}
+.lorem{
+    background-image: url(./Image/24701-nature-natural-beauty.jpg);
+    padding-top: 15px;
+    background-size: cover;
+    margin:0 0 50px 0 ;
+}
